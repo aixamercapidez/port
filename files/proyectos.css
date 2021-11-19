@@ -1,0 +1,147 @@
+body{
+    background-color: #A9B7BA;
+}
+main{
+    align-items: center;
+   
+    background-color: white;
+}
+img{
+    margin-left: 25%;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+.flexbox-item{
+    width: 300px;
+    margin: 10px;
+    
+}
+.flexbox-item-1{
+   min-height: 50px;
+}
+.flexbox-item-2{
+    min-height: 50px;
+ }
+
+.flexbox-item-3{
+  
+    min-height: 800px;
+    min-width: 1800px;
+ }
+
+.uno{
+   padding-top: 7%;
+    color: #2D4254;
+    font-size: 150PX;
+    font-family: texta;
+    letter-spacing: 10px;
+    line-height: 20px;
+
+}
+.dos{
+    color: #2D4254;
+    font-size: 170PX;
+    font-family: lig;
+    letter-spacing: 20px;
+    
+}
+.tres{
+    color: #A9B7BA;
+    font-size: 100PX;
+    font-family: lig;
+    letter-spacing: 20px;
+}
+
+
+button{
+   
+    width:70px;
+    height:100px;
+    background-color: transparent;
+    background-size: 400%;
+    background-image:url("../SVG/Recurso\ 8.svg") ;
+    border:0;
+    
+    
+    cursor:pointer;
+}
+button.ln{
+    width:70px;
+   
+    background-position:15px 250px;
+}
+button.ln:hover{
+    background-position:15px -178px;
+  }
+button.bh{
+    width:70px;
+   
+    background-position:-100px 250px;
+}
+  
+  button.bh:hover{
+    background-position:-100px -178px;
+}
+
+  button.ig{
+    width:70px;
+    background-position:-210px 250px;
+}
+  
+  button.ig:hover{
+    background-position:-210px -178px;
+}
+#btn-menu{
+    display: none;
+}
+header label{
+    display: block;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+
+header label:hover{
+   cursor: pointer;
+   background-color:#E8EAEA ;
+}
+.menu{
+    position: absolute;
+    background-color: #E8EAEA;
+    width: 10%;
+    margin-left: -70%;
+    transition: all 0.5s;
+
+}
+.menu ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-family: lig;
+    color: #2D4254;
+    font-size: 20px;
+}
+#btn-menu:checked ~ .menu {
+    margin: 0;
+}
+#btn-menu:checked~ label{
+    background-color: #E8EAEA;
+}
+
+.carousel-control{
+    align-items: center;
+    margin-top: 80%;
+    height: 50%;
+}
